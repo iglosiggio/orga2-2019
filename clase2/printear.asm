@@ -1,3 +1,4 @@
+DEFAULT REL
 section .data
 fmt: DB 'a = %i', 10, 'f = %f', 10, 's = %s', 10, 0
 
@@ -11,6 +12,6 @@ imprime_parametros:
 	mov rsi, rdi
 	mov rdi, fmt
 	sub rsp, 8
-	call printf wrt ..plt
+	call [printf wrt ..got]
 	add rsp, 8
 	ret
