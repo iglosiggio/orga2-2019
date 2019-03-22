@@ -1,4 +1,4 @@
-CFLAGS+=-no-pie
+#CFLAGS+=-no-pie
 OBJS=sumar sumard printear supersuma
 
 all: $(OBJS)
