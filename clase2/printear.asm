@@ -12,6 +12,6 @@ imprime_parametros:
 	mov rsi, rdi
 	mov rdi, fmt
 	sub rsp, 8
-	call [printf wrt ..got]
+	call printf wrt ..plt
 	add rsp, 8
 	ret
