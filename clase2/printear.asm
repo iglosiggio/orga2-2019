@@ -1,4 +1,3 @@
-DEFAULT REL
 section .data
 fmt: DB 'a = %i', 10, 'f = %f', 10, 's = %s', 10, 0
 
