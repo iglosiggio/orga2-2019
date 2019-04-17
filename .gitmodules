@@ -1,3 +1,6 @@
 [submodule "tp1"]
 	path = tp1
 	url = ./tp1/
+[submodule "tp2"]
+	path = tp2
+	url = ./tp2/
